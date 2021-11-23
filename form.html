@@ -1,0 +1,32 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ثبت نام در انجمن ATANetwork</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body dir="rtl">
+    <div class="login-page">
+        <div class="form">
+            <form class="login-form" autocomplete="off">
+                <h2>فرم ثبت نام</h2>
+                <input type="text" onkeyup="userNameValidate()" placeholder="نام کاربری خود را وارد کنید" id="userName"/>
+                <span id="userNameError" style="font-size: 12px;color: red;"></span>
+
+                <input type="password" onkeyup="userPasswordValidate()" placeholder="گذرواژه خود را وارد کنید" id="userPassword"/>
+                <span id="userpasswordError" style="font-size: 12px;color: red;"></span>
+
+                <button id="resultBtn">ثبت نام در انجمن</button>
+                <br>
+                <br>
+
+                <a class="message"><a href="http://www.atanetwork.ir">ATANetwork</a></p>
+            </form>
+        </div>
+    </div>
+    <script src="form.js"></script>
+</body>
+
+</html>
